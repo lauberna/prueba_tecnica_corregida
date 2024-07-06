@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Redesigned notifications",
     "chip": "Feat",
     "date": "Aug 10, 2024",
@@ -7,6 +8,7 @@
     "image": "/image_9.png"
   },
   {
+    "id": 2,
     "title": "Bugs",
     "chip": "Fix",
     "date": "Jul 23, 2024",
@@ -24,6 +26,7 @@
     ]
   },
   {
+    "id": 3,
     "title": "Redesigned Time Tracking",
     "chip": "Feat",
     "date": "Jul 15, 2024",

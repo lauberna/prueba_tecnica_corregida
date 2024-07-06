@@ -23,7 +23,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 280px;
+  max-width: 300px;
 }
 
 .selected {
@@ -44,7 +44,7 @@
 
 @media (width <= 1200px) {
   .aux {
-    height: 500px;
+    height: 470px;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
   }
@@ -52,7 +52,7 @@
     height: 1120px;
   }
   .notes {
-    width: 85%;
+    width: 80%;
   }
   .note {
     max-width: 90%;

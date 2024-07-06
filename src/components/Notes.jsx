@@ -13,7 +13,7 @@ const Notes = () => {
       <div className={`${s.aux} ${show === true && s.show}`}>
         <ul className={s.note_container}>
           {dataNotes.map((note, ind) => (
-            <li key={ind} className={`${s.note} ${ind === 0 && s.selected}`}>
+            <li key={note.id} className={`${s.note} ${ind === 0 && s.selected}`}>
               {note.title}
             </li>
           ))}

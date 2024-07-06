@@ -13,8 +13,9 @@
     #26E4C7 79%
   );
   padding-left: 70px;
+  transition: padding-left .2s ease-in-out;
 }
-@media(width <= 500px){
+@media(width <= 1200px){
   .header{
     padding-left: 30px;
   }

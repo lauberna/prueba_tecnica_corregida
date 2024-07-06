@@ -1,83 +1,110 @@
 [
   {
+    "id": 1,
     "title": "Release 6.5: New features and enhanced algorith"
   },
   {
+    "id": 2,
     "title": "Release 6.4: Hirefy: Precision Unleashed"
   },
   {
+    "id": 3,
     "title": "Release 6.3: Hirefy is Expanding Horizons"
   },
   {
+    "id": 4,
     "title": "Release 6.2: Time for some Bug Squashing"
   },
   {
+    "id": 5,
     "title": "Release 6.1: Augmented Reality Talent Portfolios are Live"
   },
   {
+    "id": 6,
     "title": "Release 6.0: Augmented Reality Talent Portfolios are in BETA"
   },
   {
+    "id": 7,
     "title": "Release 5.4: Bug Fixes and Performance Optimization"
   },
   {
+    "id": 8,
     "title": "Release 5.3: Simplified Job Posting Analytics"
   },
   {
+    "id": 9,
     "title": "Release 5.2: Interactive Interview Feedback"
   },
   {
+    "id": 10,
     "title": "Release 5.1: Responsive Design Tweaks: Your tablet is ready for Hirefy!"
   },
   {
+    "id": 11,
     "title": "Release 5.0: Expanded Language Support"
   },
   {
+    "id": 12,
     "title": "Release 4.3: Server Performance Optimization"
   },
   {
+    "id": 13,
     "title": "Release 4.2: Intelligent Candidate Recommendations and Collaborative Talent Projects"
   },
   {
+    "id": 14,
     "title": "Release 4.1: Our Mobile app is on the store"
   },
   {
+    "id": 15,
     "title": "Release 4.0: Advanced Networking Communities"
   },
   {
+    "id": 16,
     "title": "Release 3.3: Personalized Skill Development Recommendations"
   },
   {
+    "id": 17,
     "title": "Release 3.2: Community-Reported Bug Fixes"
   },
   {
+    "id": 18,
     "title": "Release 3.1: Getting ready for Mobile Launch"
   },
   {
+    "id": 19,
     "title": "Release 3.0: Our family is getting bigger"
   },
   {
+    "id": 20,
     "title": "Release 2.2: The importance of Consent"
   },
   {
+    "id": 21,
     "title": "Release 2.1: AI-Powered Skill Gap Analysis"
   },
   {
+    "id": 22,
     "title": "Release 2.0: Cloud Infrastructure Scaling"
   },
   {
+    "id": 23,
     "title": "Release 1.4: Baby steps"
   },
   {
+    "id": 24,
     "title": "Release 1.3: Proactive Community Bug Hunt"
   },
   {
+    "id": 25,
     "title": "Release 1.2: User-Centric Performance Enhancements"
   },
   {
+    "id": 26,
     "title": "Release 1.1: Server Response Time Tweaks"
   },
   {
+    "id": 27,
     "title": "Release 1.0: Initial Launch: Navigating the Beginning"
   }
 ]

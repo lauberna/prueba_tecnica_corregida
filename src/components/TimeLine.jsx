@@ -1,5 +1,7 @@
+import { TbTriangleFilled } from "react-icons/tb";
 import data from "../util/eventsData.json";
 import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 import Event from "./Event";
 import "./timeLine.css";
 
@@ -26,17 +28,23 @@ const TimeLine = () => {
           <label className="options" htmlFor="options">
             Sort by:
           </label>
-          <select id="options" value={selectedOption} onChange={handleChange}>
+          <select
+            className="select"
+            id="options"
+            value={selectedOption}
+            onChange={handleChange}
+          >
             <option value="all">All</option>
             <option value="feat">Feat</option>
             <option value="fix">Fix</option>
           </select>
+          <TbTriangleFilled className="select-icon" />
         </div>
       </header>
       <div className="timeline">
-        {filteredEvents.map((el, ind) => (
-          <Event key={ind} data={el} />
-        ))}
+          {filteredEvents.map((el, ind) => (
+            <Event key={el.id} data={el} />
+          ))}
       </div>
     </div>
   );
