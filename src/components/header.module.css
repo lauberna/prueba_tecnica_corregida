@@ -1,0 +1,26 @@
+.header{
+  height: clamp(100px, 12vw, 200px);
+  min-height: 100px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    #0D5287 0%,
+    #187DCA 21%,
+    #05AACE 42%,
+    #04D2C6 63%,
+    #26E4C7 79%
+  );
+  padding-left: 70px;
+}
+@media(width <= 500px){
+  .header{
+    padding-left: 30px;
+  }
+}
+.bannerTitle{
+  font-size: clamp(32px, 5vw, 50px);
+  font-weight: 700;
+  color: white;
+}
