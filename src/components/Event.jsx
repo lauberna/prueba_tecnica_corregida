@@ -14,7 +14,7 @@ const Event = ({ data }) => {
         {data.list && (
           <ul className="data_list">
             {data.list.map((el, ind) => {
-              return <li className="liElement">{el}</li>;
+              return <li key={ind} className="liElement">{el}</li>;
             })}
           </ul>
         )}
