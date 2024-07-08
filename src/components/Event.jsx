@@ -1,18 +1,11 @@
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import React from "react";
 import "./timeLine.css";
 const Event = ({ data }) => {
-  const handleVisibilityChange = (inView, entry) => {
-    if (inView) {
-      console.log(`Element ${data.title} has entered the view.`);
-    } else {
-      console.log(`Element ${data.title} has left the view.`);
-    }
-  };
   return (
     <div className="event">
       <div className="dot"></div>
-      <Fade onVisibilityChange={handleVisibilityChange} cascade={true} fraction={.5} top distance="2%" duration={700}>
+      <Fade triggerOnce>
         <div className="event_content">
           <h2>{data.title}</h2>
           <div className="type_post">

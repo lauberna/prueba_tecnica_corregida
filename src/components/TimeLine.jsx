@@ -1,7 +1,6 @@
 import { TbTriangleFilled } from "react-icons/tb";
 import data from "../util/eventsData.json";
 import React, { useState } from "react";
-import Fade from "react-reveal/Fade";
 import Event from "./Event";
 import "./timeLine.css";
 
